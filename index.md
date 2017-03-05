@@ -1,6 +1,6 @@
-<head>
-<title> Hello from Jifeng...</title>
-</head>
+---
+title: Hello from Jifeng...
+---
 
 # Hello
 Hello from Jifeng!
