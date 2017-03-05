@@ -4,6 +4,8 @@ title: Hello from Jifeng...
 
 # 使用Github Pages
 
+官方有详细的文档可参考：[Github Pages基础](https://help.github.com/categories/github-pages-basics/)
+
 ## 简单步骤
 
 - 若没有github账号，去注册一个；下面以`username`作为github账户名示例
@@ -14,6 +16,8 @@ title: Hello from Jifeng...
 注：若使用Project Site(以`NewProject`名称的Repo为例)，可以在Project的Repo中新建一个gh-pages的分支(或者直接在主分支创建一个`/docs`文件夹来存放Github Pages的内容)，此分支的内容会在`https://username.github.io/NewProject/`展示出来。
 
 ## 定制页面
+
+定制页面的官方文档：[定制Github Pages](https://help.github.com/categories/customizing-github-pages/)
 
 建议使用Jekyll定制Github Pages，可以参考[Github的帮助页](https://help.github.com/articles/creating-a-github-pages-site-with-the-jekyll-theme-chooser/)。Jekyll可以使用一般的[页面](https://jekyllrb.com/docs/pages/)，也可以用来[写博客](https://jekyllrb.com/docs/posts/)，完整的项目文件夹结构可参见[Jekyll官方文档](https://jekyllrb.com/docs/structure/)。
 
