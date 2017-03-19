@@ -1,0 +1,11 @@
+<!-- see https://github.com/codinfox/codinfox-lanyon/blob/dev/_includes/sidebar.html -->
+
+<nav class="top-nav">
+{% for nav in site.nav %}
+    <span>
+    <a class="top-nav-item {% if page.url == nav[1][0] %}active{% endif %}" href="{{ url }}">
+        {{ nav[0] }}
+    </a>
+    </span>
+{% endfor %}
+</nav>

@@ -26,3 +26,7 @@ title: Hello from Jifeng...
 - 在`Theme Chooser`中选择一款主题样式即可
 
 注：一般的Jekyll样式都有github的Repo的，比如[TimeMachine的Theme](https://github.com/pages-themes/time-machine)。
+
+## 感谢
+
+本博客的代码参考了[codinfox-lanyon](https://github.com/codinfox/codinfox-lanyon/)的代码，使用了[tactile主题](https://github.com/pages-themes/tactile/)，再此表示感谢！
