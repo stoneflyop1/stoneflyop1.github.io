@@ -25,3 +25,36 @@ tags: [github, jekyll]
         text-align: center;
     }
     ```
+## 添加文章类别和标签
+
+主要参考了[minddust的博客文章](http://www.minddust.com/post/alternative-tags-and-categories-on-github-pages/)，源代码参考[minddust.github.io](https://github.com/minddust/minddust.github.io/)。
+
+使用collections生成类别和标签的链接，示例如下：
+
+```yaml
+# tags and categories
+collections:
+  my_categories:
+    output: true
+    permalink: /blog/category/:name/
+  my_tags:
+    output: true
+    permalink: /blog/tag/:name/
+
+...
+
+# render layouts
+defaults:
+  -
+    scope:
+      path: ""
+      type: my_categories
+    values:
+      layout: blog_by_category
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: blog_by_tag
+```
