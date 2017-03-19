@@ -15,7 +15,7 @@ tags: [github, jekyll]
 
 include指令可以引入其他文件内容到当前页，需要引入的文件需要放到`_includes`文件夹中，一般为html文件。
 
-```liquid
+```ruby
 {%  include nav.html %}
 ```
 ### 修改样式表
