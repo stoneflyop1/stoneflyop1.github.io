@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-nav.top-nav-item {
-    width:100px !important;
-    text-align: center !important;
+span a.top-nav-item {
+    width:100px;
+    text-align: center;
 }
