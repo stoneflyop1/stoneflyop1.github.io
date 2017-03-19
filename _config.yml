@@ -29,3 +29,24 @@ gems:
 paginate: 5
 paginate_path: '/blog/page/:num/'
 # timezone: Europe/Berlin
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: my_categories
+    values:
+      layout: blog_by_category
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: blog_by_tag
