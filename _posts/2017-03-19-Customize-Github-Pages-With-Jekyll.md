@@ -9,28 +9,22 @@ tags: [github, jekyll]
 
 ## 定制页面
 
-主要使用了`include`指令，以及修改对应的样式表。
+- include指令
+    include指令可以引入其他文件内容到当前页，需要引入的文件需要放到`_includes`文件夹中，一般为html文件。
+    ``` liquid
+    {%  include nav.html %}
+    ```
+- 修改样式表
+    在使用Jekyll主题后，一般可以添加一个`assets/css/style.scss`文件来覆盖现有的样式表，内容如下。
+    ```css
+    ---
+    ---
+    /* 导入Jekyll主题样式表 */
+    @import "{{ site.theme }}";
 
-### include指令
-
-include指令可以引入其他文件内容到当前页，需要引入的文件需要放到`_includes`文件夹中，一般为html文件。
-
-```ruby
-{%  include nav.html %}
-```
-### 修改样式表
-
-在使用Jekyll主题后，一般可以添加一个`assets/css/style.scss`文件来覆盖现有的样式表，内容如下。
-
-```css
----
----
-/* 导入Jekyll主题样式表 */
-@import "{{ site.theme }}";
-
-/* 用来覆盖的样式或新增样式 */
-span a.top-nav-item {
-    width:100px;
-    text-align: center;
-}
-```
+    /* 用来覆盖的样式或新增样式 */
+    span a.top-nav-item {
+        width:100px;
+        text-align: center;
+    }
+    ```
