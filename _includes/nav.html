@@ -10,9 +10,9 @@
       {% endif %}
 
       {% assign sub_len = nav[1] | size | minus: 1 %}
-      
+
     <span>
-    <a class="top-nav-item {% if page.url == nav[1][0] %}active{% endif %}" href="{{ url }}">
+    <a class="top-nav-item button {% if page.url == nav[1][0] %}active{% endif %}" href="{{ url }}">
         {{ nav[0] }}
     </a>
     </span>
