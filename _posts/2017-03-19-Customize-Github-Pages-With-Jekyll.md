@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 使用Jekyll主题定制Github页面
+description: 
 category: programming
 tags: [github, jekyll]
 ---
