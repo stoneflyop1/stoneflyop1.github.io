@@ -12,6 +12,7 @@ nav:
     - '/about'
 
 # tags and categories
+# https://jekyllrb.com/docs/collections/
 collections:
   my_categories:
     output: true
@@ -25,12 +26,12 @@ gems:
   - jekyll-paginate
 
 # Outputting
- permalink: /post/year/month/day/:title
+#permalink: /post/:title/
 paginate: 5
 paginate_path: '/blog/page/:num/'
 # timezone: Europe/Berlin
 
-
+# https://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:
   -
     scope:
