@@ -2,6 +2,15 @@
 
 <nav class="top-nav">
 {% for nav in site.nav %}
+
+    {% assign is_relative = nav[1][0] | slice: 0 %}
+      {% assign url = nav[1][0] %}
+      {% if is_relative == '/' %}
+        {% assign url = nav[1][0] | prepend: site.baseurl %}
+      {% endif %}
+
+      {% assign sub_len = nav[1] | size | minus: 1 %}
+      
     <span>
     <a class="top-nav-item {% if page.url == nav[1][0] %}active{% endif %}" href="{{ url }}">
         {{ nav[0] }}
