@@ -26,16 +26,16 @@
         <hr>
 
         <section id="cate-tags">
-          {% assign category = site.my_categories | where: "slug", post.category %}
+          {% assign category = site.my_categories | where: "slug", page.category %}
           
           {% if category.size > 0 %}
               {% assign cate = category[0] %}
               {% capture category_content %}<a class="label" href="{{ cate.url }}" style="background-color:{{ cate.color }}">{{ cate.name }}</a>{% endcapture %}
           {% endif %}
 
-          {% if post.tags.size > 0 %}
+          {% if page.tags.size > 0 %}
               {% capture tags_content %} with <span class="icon-price-tag{% if post.tags.size > 1 %}s{% endif %}"></span>: {% endcapture %}
-              {% for post_tag in post.tags %}
+              {% for post_tag in page.tags %}
               {% assign tag = site.my_tags | where: "slug", post_tag %}
               {% if tag.size > 0 %}
                   {% assign t = tag[0] %}
