@@ -33,7 +33,7 @@ paginate_path: '/blog/page/:num/'
 # timezone: Europe/Berlin
 
 # plugin configuration
-sitemap: false
+sitemap: true
 mathjax: true # whether support mathjax
 
 # https://jekyllrb.com/docs/configuration/#front-matter-defaults
