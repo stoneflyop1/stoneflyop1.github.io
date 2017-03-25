@@ -27,9 +27,11 @@ gems:
   - jekyll-sitemap
 
 # Outputting
-#permalink: /post/:title/
+# https://jekyllrb.com/docs/permalinks/
+#permalink: /:categories/:year/:month/:day/:title.html
+# https://jekyllrb.com/docs/pagination/
 paginate: 5
-paginate_path: '/blog/page/:num/'
+paginate_path: '/blog/page/:num/' # start with page 2
 # timezone: Europe/Berlin
 
 # plugin configuration
