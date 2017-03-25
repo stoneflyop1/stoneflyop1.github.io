@@ -19,7 +19,9 @@
 
         <header>
           <h2>{{ page.title | site.title | default: site.github.repository_name }}</h2>
-          <span>Updated {{page.last_modified_at | date_to_string}}</span>
+          {% if site.sitemap %}
+            <span>Updated {{page.last_modified_at | date_to_string}}</span>
+          {% endif %}
         </header>        
         <section id="downloads" class="clearfix">
           {%  include nav.html %} 
