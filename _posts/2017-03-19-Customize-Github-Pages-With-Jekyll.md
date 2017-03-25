@@ -62,3 +62,4 @@ defaults:
 ## 注意的问题
 
 - Jekyll中的页面为`page`，而不是`post`；分页插件中用的是`post`
+- 增加文章的修改时间：https://zzz.buzz/2016/02/13/add-an-updated-field-to-your-jekyll-site/
