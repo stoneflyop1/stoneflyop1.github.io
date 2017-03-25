@@ -19,6 +19,7 @@
 
         <header>
           <h2>{{ page.title | site.title | default: site.github.repository_name }}</h2>
+          <span>Updated {{page.last_modified_at | date_to_string}}</span>
         </header>        
         <section id="downloads" class="clearfix">
           {%  include nav.html %} 
@@ -46,7 +47,7 @@
           {% endif %}
             
           <p class="m-t-3 text-muted font-italic">
-            <small>Posted{% if category.size > 0 %} in </small>{{ category_content }}<small>{% endif %}{{ tags_content }}</small>
+            <small>Posted{% if category.size > 0 %} in </small>{{ category_content }}<small>{% endif %}{{ tags_content }}</small>         
           </p>
         </section>
 

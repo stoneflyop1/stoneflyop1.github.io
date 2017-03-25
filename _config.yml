@@ -24,6 +24,7 @@ collections:
 # Plugins
 gems:
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Outputting
 #permalink: /post/:title/

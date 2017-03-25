@@ -58,3 +58,7 @@ defaults:
     values:
       layout: blog_by_tag
 ```
+
+## 注意的问题
+
+- Jekyll中的页面为`page`，而不是`post`；分页插件中用的是`post`
