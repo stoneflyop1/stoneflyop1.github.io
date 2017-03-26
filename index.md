@@ -14,7 +14,7 @@ last_modified_at: 2017-03-26T00:00:00+00:00
 - 在新的Repo中创建一个`index.html`或`index.md`文件作为首页
 - 访问`https://username.github.io/`
 
-注：若使用Project Site(以`NewProject`名称的Repo为例)，可以在Project的Repo中新建一个gh-pages的分支(或者直接在主分支创建一个`/docs`文件夹来存放Github Pages的内容)，此分支的内容会在`https://username.github.io/NewProject/`展示出来。
+注：若使用Project Site(以`NewProject`名称的Repo为例)，可以在Project的Repo中新建一个`gh-pages`的分支(或者直接在主分支创建一个`/docs`文件夹来存放Github Pages的内容)，此分支的内容会在`https://username.github.io/NewProject/`展示出来。
 
 ## 定制页面
 
