@@ -8,4 +8,3 @@ description:
 - Name: Jifeng
 - Github: https://github.com/stoneflyop1/
 - Weibo: http://weibo.com/stoneflyop1/
-- email: stoneflier@gmail.com
