@@ -1,10 +1,23 @@
 <header>
+  {% if page.layout == "post" %}
+    <h2>{{ page.title | site.title | default: site.github.repository_name }}</h2>
+  {% else %}
     <h1>{{ page.title | site.title | default: site.github.repository_name }}</h1>
     <h2>{{ page.description | site.description | default: site.github.project_tagline }}</h2>
+  {% endif %}
+  {% if page.last_modified_at %}
+    <span class="post-meta">
+      (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+        {{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+    </span>
+  {% endif %}
 </header>
 {% if site.mathjax %}
   <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"> </script>
   <script type="text/x-mathjax-config">
-MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } });
+    MathJax.Hub.Config({ 
+      tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true },
+      TeX: { equationNumbers: { autoNumber: "AMS" } }
+      });
   </script>
-  {% endif %}
+{% endif %}

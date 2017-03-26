@@ -64,3 +64,4 @@ defaults:
 - Jekyll中的页面为`page`，而不是`post`；分页插件中用的是`post`
 - 增加文章的修改时间：https://zzz.buzz/2016/02/13/add-an-updated-field-to-your-jekyll-site/
 - 数学公式可以使用[`MathJax`](http://docs.mathjax.org/en/latest/start.html#tex-and-latex-input)；示例：$ E=mc^2 $
+- 数学公式中的符号可以使用[`tex`格式](http://www.colorado.edu/physics/phys4610/phys4610_sp15/PHYS4610_sp15/Home_files/LaTeXSymbols.pdf)，示例：$ x \in A $
