@@ -63,6 +63,6 @@ defaults:
 ## 注意的问题
 
 - Jekyll中的页面为`page`，而不是`post`；分页插件中用的是`post`
-- 增加文章的修改时间：https://zzz.buzz/2016/02/13/add-an-updated-field-to-your-jekyll-site/
+- [使用sitemap插件可以增加文章的修改时间](https://zzz.buzz/2016/02/13/add-an-updated-field-to-your-jekyll-site/)，但要注意，[只有使用了`jekyll-last-modified-at`插件后才能自动生成`last_modified_at`的页面属性，否则需要手工在页面添加](https://github.com/jekyll/jekyll-sitemap#lastmod-tag)
 - 数学公式可以使用[`MathJax`](http://docs.mathjax.org/en/latest/start.html#tex-and-latex-input)；示例：$ E=mc^2 $
-- 数学公式中的符号可以使用[`tex`格式](http://www.colorado.edu/physics/phys4610/phys4610_sp15/PHYS4610_sp15/Home_files/LaTeXSymbols.pdf)，示例：$ x \in A $
+- 数学公式中的符号可以使用[`tex`格式](http://www.colorado.edu/physics/phys4610/phys4610_sp15/PHYS4610_sp15/Home_files/LaTeXSymbols.pdf)，示例：$ x \in A $。为了正常显示所有的数学公式，markdown插件需要换成：kramdown
