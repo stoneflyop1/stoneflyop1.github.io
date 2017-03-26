@@ -1,5 +1,6 @@
 ---
 title: Hello from Jifeng...
+last_modified_at: 2017-03-26T00:00:00+00:00
 ---
 
 # 使用Github Pages
@@ -30,3 +31,5 @@ title: Hello from Jifeng...
 ## 感谢
 
 本博客的导航部分参考了[codinfox-lanyon](https://github.com/codinfox/codinfox-lanyon/)的代码，生成Tag和Category部分使用了[minddust](http://www.minddust.com/post/alternative-tags-and-categories-on-github-pages/)的方法，主题使用了[tactile主题](https://github.com/pages-themes/tactile/)，在此表示感谢！
+
+更加详细的定制页面请参考博文：[使用Jekyll主题定制Github页面]({{ site.baseurl }}{% link _posts/2017-03-19-Customize-Github-Pages-With-Jekyll.md %})。
