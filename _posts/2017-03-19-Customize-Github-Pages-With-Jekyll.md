@@ -4,6 +4,7 @@ title: 使用Jekyll主题定制Github页面
 description: 
 category: programming
 tags: [github, jekyll]
+last_modified_at: 2017-03-26T00:00:00+00:00
 ---
 
 作为开始，首先可以从Github默认的主题列表里选择一款主题；然后再根据自己的需要做一些定制：比如增加导航栏，文章的标签和类别等。
