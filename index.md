@@ -29,4 +29,4 @@ title: Hello from Jifeng...
 
 ## 感谢
 
-本博客的导航部分参考了[codinfox-lanyon](https://github.com/codinfox/codinfox-lanyon/)的代码，生成Tag和Category部分使用了[minddust的方法](http://www.minddust.com/post/alternative-tags-and-categories-on-github-pages/)，主题使用了[tactile主题](https://github.com/pages-themes/tactile/)，在此表示感谢！
+本博客的导航部分参考了[codinfox-lanyon](https://github.com/codinfox/codinfox-lanyon/)的代码，生成Tag和Category部分使用了[minddust](http://www.minddust.com/post/alternative-tags-and-categories-on-github-pages/)的方法，主题使用了[tactile主题](https://github.com/pages-themes/tactile/)，在此表示感谢！
