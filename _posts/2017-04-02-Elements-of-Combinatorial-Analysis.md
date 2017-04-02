@@ -31,9 +31,9 @@ $$ p = \frac{(n)_r}{n^r} $$
 
 从大小为n的总体选r个元素构成一个大小为r的子总体。
 
-> 对这个子总体中元素随意编号将其转化为大小为r的有序样本，每个这样的样本都可以用这种方式获得。既然r个元素有$r!$种不同标号方式(排列)，由此可得样本的个数是大小为r的子总体个数的$r!$倍，所以大小为r的子总体个数为$(n)_r / r!$，记为：$ \left( \begin{array}{c} n \\ r \end{array} \right) $，称为二项式系数。
+> 对这个子总体中元素随意编号将其转化为大小为r的有序样本，每个这样的样本都可以用这种方式获得。既然r个元素有$r!$种不同标号方式(排列)，由此可得样本的个数是大小为r的子总体个数的$r!$倍，所以大小为r的子总体个数为$(n)_r / r!$，记为：$ \\left( \\begin{array}{c} n \\\\ r \\end{array} \\right) $，称为二项式系数。
 
-__定理1 一个包含n个元素的总体可以产生$ \left( \begin{array}{c} n \\ r \end{array} \right) $个不同的子总体 $ (r \leqslant n) $__
+__定理1 一个包含n个元素的总体可以产生$ \\left( \\begin{array}{c} n \\\\ r \\end{array} \\right) $个不同的子总体 $ (r \leqslant n) $__
 
 > 从n个元素中可以用$ \\left( \\begin{array}{c} n \\\\ r \\end{array} \\right) $种不同方法选出包含r个元素的子总体。因为从n个元素总体选取r个元素和留下n-r个是等价的，因此：
 
@@ -42,7 +42,7 @@ $$ \left( \begin{array}{c} n \\ r \end{array} \right) = \left( \begin{array}{c} 
 ### 占位问题 续
 
 r个球随机分布于n个盒中的问题，考虑一个给定盒子中恰好包含k个球的概率$p_k$
-> 我们首先注意：k个球可以有$ \left( \begin{array}{c} r \\ k \end{array} \right) $种选取方式，剩下的n-1个盒的方式有$(n-1)^{r-k}$种，由此推出：
+> 我们首先注意：k个球可以有$ \\left( \\begin{array}{c} r \\\\ k \\end{array} \\right) $种选取方式，剩下的n-1个盒的方式有$(n-1)^{r-k}$种，由此推出：
 
 $$ p_k = \left(  \begin{array}{c} r \\ k \end{array} \right) \centerdot \frac{1}{n^r} \centerdot (n-1)^{r-k} = \left( \begin{array}{c} r \\ k \end{array} \right)  \centerdot \frac{1}{n^k} \centerdot (1-\frac{1}{n})^{r-k} $$
 
@@ -70,8 +70,8 @@ $$ r_1 + r_2 +...+ r_n = r, r_k \geqslant 0 $$
 
 只有当对应的n元组$(r_1, r_2,...,r_n)$不恒等时，不可辨球的下列两类分布才是不同的：
 
-- 可区别的分布的数目是：$ A_{r,n} = \left( \begin{array}{c} {n+r-1} \\ r \end{array} \right) = \left( \begin{array}{c} {n+r-1} \\ {n-1} \end{array} \right)  $
-- 没有一个盒是空的可区别的分布的数目是：$ \left(  \begin{array}{c} {r-1} \\ {n-1} \end{array} \right) $
+- 可区别的分布的数目是：$ A_{r,n} = \\left( \\begin{array}{c} {n+r-1} \\\\ r \\end{array} \\right) = \\left( \\begin{array}{c} {n+r-1} \\\\ {n-1} \\end{array} \\right)  $
+- 没有一个盒是空的可区别的分布的数目是：$ \\left(  \\begin{array}{c} {r-1} \\\\ {n-1} \\end{array} \\right) $
 - \|\*\*\*\|\*\|\|\|\|\*\*\*\*\| (r=8个球放于n=6个盒中的示例)
 
 如上有n+1个\|，r个\*，其中n-1条\|和r个\*可任意排列；对于没有空盒的情况，即没有两条\|是靠在一起的。但r个\*有r-1个空位，由n-1个\|来填充。
@@ -83,7 +83,7 @@ $$ \frac{r!}{ {r_1}! {r_2}! ... {r_n}! } n^{-r} $$
 波色-爱因斯坦统计：r个质点和n个盒，仅考虑可区分的排列，每个排列赋以相等的概率$1/A_{r,n}$(见前文公式)。
 
 费米-狄拉克假设：
-- 2个或多个质点在同一个盒中是不可能的(要求：$r \leqslant n$)，即：每一种排列都相当于从n个盒中选择r个质点放入不重复的盒中。排列数：$\begin{array}{c} n \\ r \end{array}$
+- 2个或多个质点在同一个盒中是不可能的(要求：$r \leqslant n$)，即：每一种排列都相当于从n个盒中选择r个质点放入不重复的盒中。排列数：$\\left( \\begin{array}{c} n \\\\ r \\end{array} \\right)$
 - 满足上一个条件的所有的可区分的排列具有相同的概率
 
 ### 连贯(Run)
