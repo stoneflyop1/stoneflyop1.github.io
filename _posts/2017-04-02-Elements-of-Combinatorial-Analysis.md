@@ -35,7 +35,7 @@ $$ p = \frac{(n)_r}{n^r} $$
 
 __定理1 一个包含n个元素的总体可以产生$ \left( \begin{array}{c} n \\ r \end{array} \right) $个不同的子总体 $ (r \leqslant n) $__
 
-> 从n个元素中可以用$ \left( \begin{array}{c} n \\ r \end{array} \right) $种不同方法选出包含r个元素的子总体。因为从n个元素总体选取r个元素和留下n-r个是等价的，因此：
+> 从n个元素中可以用$ \\left( \\begin{array}{c} n \\\\ r \\end{array} \\right) $种不同方法选出包含r个元素的子总体。因为从n个元素总体选取r个元素和留下n-r个是等价的，因此：
 
 $$ \left( \begin{array}{c} n \\ r \end{array} \right) = \left( \begin{array}{c} n \\ (n-r) \end{array} \right) $$
 
