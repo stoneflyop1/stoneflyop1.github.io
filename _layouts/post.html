@@ -43,7 +43,9 @@
           {% endif %}
             
           <p class="m-t-3 text-muted font-italic">
-            <small>Posted{% if category.size > 0 %} in </small>{{ category_content }}<small>{% endif %}{{ tags_content }}</small>         
+            {% if category.size > 0 %}
+            <small>Posted in </small>{{ category_content }}<small>{{ tags_content }}</small>
+            {% endif %}     
           </p>
         </section>
 
