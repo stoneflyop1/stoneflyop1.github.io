@@ -9,7 +9,9 @@ span a.top-nav-item {
 }
 
 blockquote {
+    padding: 0 0 0 20px;
     font-size: 1.0em;
+    border-left: 6px solid #6a9fb5;
 }
 
 .card {
@@ -18,4 +20,13 @@ blockquote {
 
 a#view-on-github {
     width:150px !important;
+}
+
+td {
+    border: 1px solid #666;
+}
+
+ul li {
+    padding-left: 10px;
+    margin-left: 10px;
 }
