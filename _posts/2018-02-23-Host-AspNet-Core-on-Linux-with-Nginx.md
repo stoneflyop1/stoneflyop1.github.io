@@ -23,7 +23,7 @@ tags: [netcore, nginx]
 127.0.0.1 www.test.zjf
 ```
 
-假设Linux服务器的IP为：192.168.1.201，若访问网站的机器也需要添加一条hosts记录：
+假设Linux服务器的IP为：192.168.1.201，访问网站的机器也需要添加一条hosts记录：
 
 ```hosts
 192.168.1.201 www.test.zjf
