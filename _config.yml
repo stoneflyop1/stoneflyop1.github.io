@@ -4,11 +4,11 @@ description: 记录所思、所做等
 
 # Navigation
 nav:
-  Home:           
+  Home:
     - '/'
-  Blog:           
+  Blog:
     - '/blog/'
-  About:          
+  About:
     - '/about'
 
 # tags and categories
