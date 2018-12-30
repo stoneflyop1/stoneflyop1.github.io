@@ -23,12 +23,9 @@ collections:
     permalink: /blog/tag/:name/
 
 # Plugins
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # markdown
 markdown: kramdown
