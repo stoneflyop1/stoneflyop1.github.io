@@ -1,6 +1,7 @@
 theme: jekyll-theme-tactile
 title: Jifeng's Blog
 description: 记录所思、所做等
+author: stoneflyop1
 
 # Navigation
 nav:
@@ -26,6 +27,9 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
 
+plugins:
+  - jekyll-seo-tag
+
 # markdown
 markdown: kramdown
 kramdown:
@@ -33,7 +37,7 @@ kramdown:
 
 # Outputting
 # https://jekyllrb.com/docs/permalinks/
-#permalink: /:categories/:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title.html
 # https://jekyllrb.com/docs/pagination/
 paginate: 5
 paginate_path: '/blog/page/:num/' # start with page 2
