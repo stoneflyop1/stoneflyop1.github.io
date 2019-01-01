@@ -1,6 +1,5 @@
 ---
 title: Hello from Jifeng...
-last_modified_at: 2017-03-26T00:00:00+00:00
 ---
 
 # 使用Github Pages
